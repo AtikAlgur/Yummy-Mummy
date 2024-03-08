@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.name {
+  position: absolute;
+  left: 35%;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+  top: 5px;
+  font-size: 4rem;
+  color: #891652;
+}
+.top-bar {
+  background: #fec7b4;
+  height: 40px;
+  padding: 10px 25px;
+}
+
+.navbar {
+  background: #ff8e8f;
+  height: 50px;
+  padding: 5px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo img {
+  width: 100px;
+  top: 4px;
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.menu li {
+  padding: 15px 10px;
+  font-size: 16px;
+  font-family: lato;
+  font-weight: 700;
+}
+
+.logout {
+  height: 2em;
+  width: 5em;
+  border-radius: 10px;
+  background: #fec7b4;
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.barline {
+  width: 100%;
+  height: 5vh;
+  background-color: #cf9500;
+}
+.wh {
+  background-color: white;
+  width: 100%;
+  position: relative;
+  top: 100px;
+}
+.foot {
+  background-color: #fec7b4;
+  position: fixed;
+  bottom: -50px;
+  width: 100%;
+}
+
+.foot-list {
+  display: flex;
+  gap: 8em;
+}
+
+.foothead {
+  margin-top: 5px;
+  color: black;
+  font-size: 22px;
+}
+
+.listItems {
+  list-style: none;
+  margin: 20px;
+}
+
+.footrefer {
+  color: black;
+}
+
+.footimage {
+  position: absolute;
+  top: 40em;
+  left: 80em;
+}
+
+.logo {
+  position: absolute;
+  top: -0.3em;
+  left: 1.6em;
+}
+
+.head-small {
+  font-size: 9px;
+}
+
+.main {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  margin: auto;
+  width: 60%;
+  padding: 250px;
+  position: relative;
+  bottom: 230px;
+}
+
+.slogan {
+  font-family: "Dancing Script", cursive;
+}
+
+.smallBox {
+  border: solid 8rem #fdf7e5;
+  border-radius: 1rem;
+  position: absolute;
+  left: 2rem;
+}
+
+.smallBox1 {
+  border: solid 8rem #fdf7e5;
+  border-radius: 1rem;
+  position: absolute;
+  left: 24rem;
+}
+
+.smallBox2 {
+  border: solid 8rem #fdf7e5;
+  border-radius: 1rem;
+  position: absolute;
+  left: 45rem;
+}
+
+.imagecat img {
+  border-radius: 5px;
+  position: absolute;
+  top: 13rem;
+  left: 5rem;
+  width: 10rem;
+}
+
+.imagecat p {
+  position: absolute;
+  top: 20rem;
+  left: 5rem;
+  font-size: 1.3rem;
+}
+
+.imagecat1 img {
+  border-radius: 5px;
+  position: absolute;
+  top: 12rem;
+  left: 27rem;
+  width: 10rem;
+}
+
+.imagecat1 p {
+  position: absolute;
+  top: 22rem;
+  left: 28rem;
+  font-size: 1.3rem;
+}
+
+.imagecat2 img {
+  border-radius: 5px;
+  position: absolute;
+  top: 12rem;
+  left: 48rem;
+  width: 10rem;
+}
+
+.imagecat2 p {
+  position: absolute;
+  top: 20rem;
+  left: 48rem;
+  font-size: 1.3rem;
+}
+.imagecat3 img{
+  border-radius: 5px;
+  position: absolute;
+  top: 29.6rem;
+  left: 3rem;
+  width: 8rem;
+  height: 7rem;
+  z-index: 1;
+}
+.imagecat3 p {
+  position: absolute;
+  top: 10rem;
+  left: 65rem;
+  font-size: 1.3rem;
+}
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 5px 10px;
+  }
+
+  .relax img {
+    width: 10rem;
+    height: 6rem;
+  }
+
+  .more {
+    font-size: 1.2rem;
+  }
+
+  .menu li {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .logo img {
+    width: 80px;
+  }
+
+  .foot-list {
+    gap: 4em;
+  }
+
+  .moredetails {
+    gap: 10px;
+  }
+}
+
+.colon {
+  font-weight: 500;
+}
